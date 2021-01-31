@@ -1,0 +1,28 @@
+.proj-img{
+    height: 200px;
+    max-width: 100%;
+    border-radius: 5px; 
+    border: 1px solid gray;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.anchor{  
+    font-size: calc(10px + 1vmin);
+    text-align: center;
+    text-decoration: none;
+    color:rgba(19, 17, 17, 0.883);
+}
+
+.anchor:active{
+    text-decoration: none;
+    color:rgba(19, 17, 17, 0.883);
+}
+
+.anchor:hover{
+    text-decoration: none;
+    color:rgb(30, 27, 177);
+}
+
+ 
+

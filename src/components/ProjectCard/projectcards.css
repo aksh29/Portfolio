@@ -1,0 +1,243 @@
+.proj-img{
+    height: 200px;
+    max-width: 100%;
+    border-radius: 5px; 
+    border: 1px solid gray;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
+}
+
+.anchor{  
+    font-size:calc(9px + 0.6vmin);
+    text-align: center;
+    text-decoration: none;
+    color:rgba(19, 17, 17, 0.883);
+}
+
+.anchor:active{
+    text-decoration: none;
+    color:rgba(19, 17, 17, 0.883);
+}
+
+.anchor:hover{
+    text-decoration: none;
+    color:rgb(30, 27, 177);
+}
+
+.icon_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: calc(9px + 0.6vmin);
+}
+
+
+.container_card {
+    border-radius: 2%;
+    font-size: calc(6px + 1vmin);
+    padding: 0px;
+    width: 250px;
+    height: 370px;
+    background: #fff;
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.container_card .chips{
+    height:12%;
+}
+
+.container_card .chips span{
+    padding: 8px;
+    margin: 3px;
+}
+
+
+
+.container_card .picture {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 55%;
+    background-size: cover;
+    transition: all 0.5s ease;
+    animation: pictureDown 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.container_card .picture_up {
+    animation: pictureUp 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.container_card .options {
+    position: relative;
+    bottom: 110px;
+    width: 100%;
+    height: 13.10px;
+    opacity: 0;
+    padding: 15px 0 0 0;
+    user-select: none;
+    font-size: 24px;
+    color: #FFF;
+    text-align: left;
+}
+
+.container_card .options i {
+    padding-left: 52px;
+}
+
+.container_card .options_show {
+    animation: optionsDisplay 0.7s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+.container_card .navigation {
+    width: 100%;
+    height: 13.10%;
+    position: relative;
+    bottom: 0;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+}
+
+.container_card .navigation .plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 34px;
+    height: 34px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.container_card .navigation .plus .plusHor {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 2px;
+    background: rgb(92, 84, 84);
+}
+
+.container_card .navigation .plus .plusVer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 24px;
+    background: rgb(90, 83, 83);
+    animation: deactivation 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.container_card .navigation .plus .plusVer_active {
+    animation: activation 0.7s;
+    animation-fill-mode: forwards;
+    width: 300px;
+    height: 55px;
+    top: -38px;
+}
+
+.nav_btns {
+    padding-top: 17px;
+    padding-left: 17px;
+    animation: navShow 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.nav_btns .nav_btn {
+    margin-left: 32px;
+}
+
+.nav_btns .nav_btn_r {
+    margin-left: 83px;
+}
+
+.nav_btns_hide {
+    animation: navHide 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes activation {
+    0% {
+        width: 2px;
+        height: 24px;
+        top: 50%;
+    }
+    50% {
+        width: 2px;
+        height: 55px;
+        top: -38px;
+    }
+    100% {
+        background: white;
+        width: 300px;
+        height: 55px;
+        top: -38px;
+    }
+}
+
+@keyframes deactivation {
+    0% {
+        width: 300px;
+        height: 55px;
+        top: -38px;
+        
+    }
+    50% {
+        width: 2px;
+        height: 55px;
+        top: -38px;
+    }
+    100% {
+        width: 2px;
+        height: 24px;
+        top: 50%;
+    }
+}
+
+@keyframes pictureUp {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -70px;
+    }
+    100% {
+        top: -70px;
+    }
+}
+
+@keyframes pictureDown {
+    0% {
+        top: -70px;
+    }
+    50% {
+        top: -70px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes optionsDisplay {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+

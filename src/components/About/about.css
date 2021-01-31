@@ -1,0 +1,47 @@
+/* Start About Area */ 
+
+.about-area{
+    padding: 8rem 5rem;
+}
+
+.about-title h2 span{
+    display: block;
+    font: normal bold calc(20px + 2vmin) roboto;
+    letter-spacing: .5rem;
+}
+
+.about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+    font-family: roboto;
+}
+
+.about-image{
+    max-width:25em;
+    height: 18em;
+}
+
+.skill-title h2{
+    font-size: calc(20px + 2vmin);
+    width:28vw;
+    font: normal bold roboto;
+    letter-spacing: .3rem;
+}
+
+.skill-title h3{
+  
+    padding-top: 2vh;
+    font-size: calc(10px + 2vmin);
+    width:50vw;
+    font: normal bold roboto;
+    letter-spacing: .3rem;
+}
+
+.img-fluid{
+    height:inherit;
+}
+
+.tech-img{
+    max-width: calc(110px + 1vmin);
+    height: calc(90px + 0.8vmin);
+}
+

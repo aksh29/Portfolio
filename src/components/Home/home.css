@@ -1,0 +1,31 @@
+.desc{
+  font-size: calc(10px + 2vmin); 
+}
+
+.name{
+  font-size: calc(20px + 2vmin); 
+}
+  .siteheader {
+  width: 100%;
+  height:100vh;
+  background: #020808;
+  background: linear-gradient(57deg,#000000 , #434343 ); 
+  /* clip-path: polygon(0% 0%, 0% 70%, 50% 90%, 100% 70%, 100% 0%); */
+  
+  }
+
+
+.leftside {  overflow: hidden;height:auto; text-align: center;}
+
+.leftside img{
+    margin-top: 15vh;
+    height: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rounded-circle{
+  position: relative;
+  z-index:2;
+}
