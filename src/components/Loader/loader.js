@@ -1,14 +1,13 @@
 import React from 'react';
-import Spinner from 'react-bootstrap/Spinner';
-
+import './loader.css';
 
 export default class Loader extends React.Component{
-    render(){
-        const visibility = {
-            display: "block"
-        }
+    render()
+    {
         return(
-            <Spinner animation="grow" style={visibility}/>
+            
+                <h1 className='loader__content' data-content="Akshat">Akshat</h1>
+          
         );
     }
 }

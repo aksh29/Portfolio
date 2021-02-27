@@ -26,8 +26,8 @@ export default class Projects extends React.Component {
             
         <div align="center">
             <button onClick={()=> this.setState({filters:null})} className="btn btn-secondary filter-button" data-filter="all">All</button>
-            <button onClick={()=> this.setState({filters:['PHP']})} className="btn btn-secondary filter-button" data-filter="all">ReactJS</button>
-            <button onClick={()=> this.setState({filters:['JavaScript']})} className="btn btn-secondary filter-button" data-filter="all">NodeJS</button>
+            <button onClick={()=> this.setState({filters:['PHP']})} className="btn btn-secondary filter-button" data-filter="all">PHP</button>
+            <button onClick={()=> this.setState({filters:['JavaScript']})} className="btn btn-secondary filter-button" data-filter="all">JavaScript</button>
         </div>
         <br/>
         <Fade>

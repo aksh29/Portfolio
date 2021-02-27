@@ -15,7 +15,7 @@ export default class About extends React.Component {
                     <div class="row">
                         <div class="col-lg-6 col-md-12 pt-5">
                             <div class="about-image mx-auto">
-                                <img src={intro} alt="About us" class="img-fluid"/>
+                                <img src={intro} loading='lazy' alt="About us" class="img-fluid"/>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-10 mx-auto about-title">
@@ -48,20 +48,20 @@ export default class About extends React.Component {
                             <h3 className="text-uppercase mx-auto"><center>Front-End</center></h3>
                             <div class="paragraph py-4">
                                 <center>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'React_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'HTML5_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'css3_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'JavaScript_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'React_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'HTML5_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'css3_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'JavaScript_Icon.png'}/>
                                 </center>
                             </div>
 
                             <h3 className="text-uppercase mx-auto"><center>Backend-End</center></h3>
                             <div class="paragraph py-4">
                             <center>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'Python_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'PHP_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'Node_Icon.png'}/>
-                                <img className='tech-img col-md-4 col-sm-6 pb-2' src={'Java.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'Python_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'PHP_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'Node_Icon.png'}/>
+                                <img loading='lazy' className='tech-img col-md-4 col-sm-6 pb-2' src={'Java.png'}/>
                             </center>
                             </div>
 
