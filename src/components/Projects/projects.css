@@ -50,6 +50,7 @@
   background: whitesmoke;
   background-clip: padding-box;
   color: black;
+  border-radius: 5%;
 
 }
 .filter-button:active

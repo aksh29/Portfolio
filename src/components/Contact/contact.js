@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '.././Main/main';
 import './contact.css';
-import Me from '../../Images/me.jpg';
+import Me from '../../Images/me.svg';
 import emailjs from 'emailjs-com';
 
 
@@ -48,17 +48,19 @@ export default class Contact extends React.Component {
                             <ul>
                                 <li><a href="https://www.facebook.com/akshat.pandey.29"><i className="fa fa-facebook x"></i></a></li>
                                 <li><a href="https://www.instagram.com/akshat.pandey29/?hl=en"><i className="fa fa-instagram x"></i></a></li>
-                                <li><a href=""><i className="fa fa-google x"></i></a></li>2
+                                <li><a href=""><i className="fa fa-google x"></i></a></li>
                                 <li><a href=""><i className="fa fa-linkedin x"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </footer>
-                <div className="container" >
+                <div className="container">
                     <div className="row">  
                         <div className={this.state.show ? 'nb-form__display nb-form':'nb-form'}>
-                            <p className="title">Send a message</p>
-                            <i onClick={appear} className={this.state.show ? 'user-icon fa fa-minus-square':'user-icon fa fa-plus-square'}/>
+                            <div className="title">
+                            <p >Send a message</p>
+                            <div className="wrap" onClick={appear}><span className={this.state.show?"arrow":"arrow active"}><span></span><span></span></span></div></div>
+                            {/* <i onClick={appear} className={this.state.show ? 'user-icon fa fa-chevron-down fa-sm':'user-icon fa fa-chevron-up fa-sm'}/> */}
                             <form className='my-2' onSubmit={sendEmail}>
                                 <input type="text" name="name" placeholder="Name:" required/>
                                 <input type="email" name="email" placeholder="Email:" required/>

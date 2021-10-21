@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '.././Main/main';
 import  './home.css';
-import Me from'../.././Images/me.jpg';
+import Me from'../.././Images/me.svg';
 import Typical from 'react-typical';
 import ReactParticles from 'react-particles-js';
 import RubberBand from 'react-reveal/RubberBand';

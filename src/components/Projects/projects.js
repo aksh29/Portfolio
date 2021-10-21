@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from '.././Main/main';
 import ProjectCard from '.././ProjectCard/projectcards';
+import Dropdown from '.././Dropdown/dropdown';
 import projects from '../.././Utilities/ProjectContainer';
 import Fade from 'react-reveal/Fade';
 import './projects.css';
@@ -25,6 +26,7 @@ export default class Projects extends React.Component {
 
             
         <div align="center">
+            {/* <Dropdown/> */}
             <button onClick={()=> this.setState({filters:null})} className="btn btn-secondary filter-button" data-filter="all">All</button>
             <button onClick={()=> this.setState({filters:['PHP']})} className="btn btn-secondary filter-button" data-filter="all">PHP</button>
             <button onClick={()=> this.setState({filters:['JavaScript']})} className="btn btn-secondary filter-button" data-filter="all">JavaScript</button>
